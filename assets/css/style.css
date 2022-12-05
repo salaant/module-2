@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    padding: 20px;
+    background-color: #820909;
+    color: #fefefe;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 40px;
+}
+
+.header div {
+    padding-top: 20px;
+    margin-right: 40px;
+    float: right;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #fefefe;
+    text-decoration: none;
+}
+
+p {
+    font-size: 15px;
+}
+
+.logo {
+    height: 500px;
+    width: 50%;
+    margin-bottom: 30px;
+    background-image: url("Waikīkī.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+
+.footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
